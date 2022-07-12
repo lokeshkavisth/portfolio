@@ -914,7 +914,6 @@ a {
   .my-portfolio .works div {
     width: 29%;
   }
-
   .abilities .experience {
     padding: 5% 0;
   }
@@ -938,14 +937,9 @@ a {
   .navbar .banner .banner-text h1 {
     font-size: 2em;
   }
-
-  .about .about-text {
-    align-items: flex-start;
-  }
   .about .about-text .my-img {
     width: 40%;
   }
-
   .my-journey .qualifi .experience div .line-one {
     left: -22%;
   }
@@ -959,11 +953,9 @@ a {
     top: -60%;
     left: -6.7%;
   }
-
   .services .service div {
     padding: 10%;
   }
-
   .my-portfolio {
     padding: 1% 0 5%;
   }
@@ -973,21 +965,18 @@ a {
   .my-portfolio .works div {
     width: 25%;
   }
-
   .abilities {
     padding: 1% 5%;
   }
   .abilities .experience {
     padding: 0;
   }
-
   .testimonials {
     padding: 5%;
   }
   .testimonials .feedback .feed-text {
     width: 60%;
   }
-
   .contact-me .contact-form {
     padding: 0;
     width: 100%;
@@ -1006,32 +995,26 @@ a {
 @media only screen and (max-width: 768px) {
   .hamburger {
     display: block;
-    top: 0px;
+    top: 2em;
   }
-
   .bar {
     display: block;
   }
-
   .hamburger.active .bar:nth-child(1) {
     transform: translateY(8px) rotate(45deg);
   }
-
   .hamburger.active .bar:nth-child(2) {
     opacity: 0;
   }
-
   .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
-
   .nav-menu {
     display: none;
     position: absolute;
     top: -500px;
     background-color: #0e1111;
   }
-
   .nav-menu.active {
     display: flex;
     top: 3rem;
@@ -1080,14 +1063,17 @@ a {
   .navbar .banner .banner-text .links {
     margin: 2rem 0 3rem;
   }
-
   .about .about-text {
-    align-items: flex-start;
+    align-items: center;
     flex-direction: column;
   }
   .about .about-text .my-img {
-    width: 100%;
+    width: 60%;
     margin-bottom: 2rem;
+    text-align: center;
+  }
+  .about .about-text .about-me {
+    align-items: center;
   }
   .about .about-text .about-me p {
     font-size: 0.9rem;
@@ -1095,7 +1081,6 @@ a {
   .about .about-text .about-me a {
     margin: 0 7rem;
   }
-
   .my-journey {
     padding: 3rem 3rem 0;
   }
@@ -1116,7 +1101,6 @@ a {
     top: -60%;
     left: -6.7%;
   }
-
   .services {
     padding: 0 1rem 5rem;
   }
@@ -1133,7 +1117,6 @@ a {
   .services .service div h2 {
     font-size: 1.3rem;
   }
-
   .my-portfolio {
     padding: 1% 0 5rem;
   }
@@ -1150,7 +1133,6 @@ a {
   .my-portfolio .works div a {
     font-size: 0.8rem;
   }
-
   .abilities {
     padding: 5% 2%;
   }
@@ -1168,7 +1150,6 @@ a {
   .abilities .experience div p {
     font-size: 1.2rem;
   }
-
   .testimonials {
     padding: 5rem 5%;
   }
@@ -1186,7 +1167,6 @@ a {
     width: 100%;
     text-align: center;
   }
-
   .contact-me {
     padding-bottom: 5rem;
   }
@@ -1200,7 +1180,6 @@ a {
     padding: 2% 1rem;
     margin: 5px 0;
   }
-
   .footer .footer-items {
     flex-direction: column;
     align-items: center;
@@ -1251,7 +1230,6 @@ a {
   .navbar .banner .banner-text .links {
     margin: 2rem 0 3rem;
   }
-
   .about .about-text {
     align-items: flex-start;
     flex-direction: column;
@@ -1266,7 +1244,6 @@ a {
   .about .about-text .about-me a {
     margin: 0 6rem;
   }
-
   .my-journey {
     padding: 3rem 3rem 0;
   }
@@ -1290,7 +1267,6 @@ a {
   .my-journey .qualifi .education div:hover .dot-one {
     top: 50%;
   }
-
   .services {
     padding: 0 1rem 5rem;
   }
@@ -1307,7 +1283,6 @@ a {
   .services .service div h2 {
     font-size: 1.3rem;
   }
-
   .my-portfolio {
     padding: 1% 0 5rem;
   }
@@ -1324,7 +1299,6 @@ a {
   .my-portfolio .works div a {
     font-size: 0.8rem;
   }
-
   .abilities {
     padding: 5% 2%;
   }
@@ -1342,7 +1316,6 @@ a {
   .abilities .experience div p {
     font-size: 1.2rem;
   }
-
   .testimonials {
     padding: 5rem 5%;
   }
@@ -1360,7 +1333,6 @@ a {
     width: 100%;
     text-align: center;
   }
-
   .contact-me {
     padding-bottom: 5rem;
   }
@@ -1374,7 +1346,6 @@ a {
     padding: 2% 1rem;
     margin: 5px 0;
   }
-
   .footer .footer-items {
     flex-direction: column;
     align-items: center;
@@ -1425,7 +1396,6 @@ a {
   .navbar .banner .banner-text .links {
     margin: 2rem 0 3rem;
   }
-
   .about {
     padding: 3% 3%;
   }
@@ -1453,7 +1423,6 @@ a {
   .about .about-text .about-me .my-exper div {
     margin: 10px;
   }
-
   .my-journey {
     padding: 3rem 0 0 1.8rem;
   }
@@ -1480,7 +1449,6 @@ a {
   .my-journey .qualifi .education div:hover .dot-one {
     top: 50%;
   }
-
   .services {
     padding: 0 1rem 5rem;
   }
@@ -1498,7 +1466,6 @@ a {
   .services .service div h2 {
     font-size: 1.3rem;
   }
-
   .my-portfolio {
     padding: 1% 0 5rem;
   }
@@ -1515,7 +1482,6 @@ a {
   .my-portfolio .works div a {
     font-size: 0.8rem;
   }
-
   .abilities {
     padding: 5% 2%;
   }
@@ -1533,7 +1499,6 @@ a {
   .abilities .experience div p {
     font-size: 1.2rem;
   }
-
   .testimonials {
     padding: 5rem 5%;
   }
@@ -1551,7 +1516,6 @@ a {
     width: 100%;
     text-align: center;
   }
-
   .contact-me {
     padding-bottom: 5rem;
   }
@@ -1565,7 +1529,6 @@ a {
     padding: 2% 1rem;
     margin: 5px 0;
   }
-
   .footer .footer-items {
     flex-direction: column;
     align-items: center;

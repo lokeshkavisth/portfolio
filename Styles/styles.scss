@@ -922,7 +922,6 @@ a {
 
   .about {
     .about-text {
-      align-items: flex-start;
       .my-img {
         width: 40%;
       }
@@ -1010,7 +1009,7 @@ a {
   .hamburger {
     display: block;
 
-    top: 0px;
+    top: 2em;
   }
   .bar {
     display: block;
@@ -1092,13 +1091,15 @@ a {
 
   .about {
     .about-text {
-      align-items: flex-start;
+      align-items: center;
       flex-direction: column;
       .my-img {
-        width: 100%;
+        width: 60%;
         margin-bottom: 2rem;
+        text-align: center;
       }
       .about-me {
+        align-items: center;
         p {
           font-size: 0.9rem;
         }
